@@ -1,0 +1,4 @@
+filas=4
+columnas=4
+minas=1
+records=
