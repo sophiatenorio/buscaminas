@@ -149,4 +149,4 @@ class Juego:
         for i, record in enumerate(self.config.records, 1):
             minutos = int(record["time"] // 60)
             segundos = int(record["time"] % 60)
-            print(f"{i}. {record["first_name"]} {record["last_name"]} - {minutos}:{segundos:02d} (tamaño: {record["tamano"]})")
+            print(f"{i}. {record['first_name']} {record['last_name']} - {minutos}:{segundos:02d} (tamaño: {record['tamano']})")
